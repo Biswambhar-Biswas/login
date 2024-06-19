@@ -1,0 +1,137 @@
+body{
+background-image:url('https://e1.pxfuel.com/desktop-wallpaper/401/916/desktop-wallpaper-abstract-polygon-blue-pink-backgrounds-motion-backgrounds-pink-and-blue-background.jpg');
+background-repeat: no-repeat;
+background-size: 1920px 1080px;
+display: flex;
+align-items: center;
+justify-content: center;
+min-height: 100vh;
+font-family: sans-serif;
+margin: 0;
+
+}
+
+button:hover{
+    transform: 5ms;
+    /* background-color: #14B251; */
+    size: 19px;
+}
+
+#name{
+    text-align: center;
+    font-size: 20px;
+    font-family: arial;
+    font-weight: bold;
+    margin: 0;
+}
+
+input{
+    /* background-color: transparent; */
+    border: 0px solid;
+    outline: none;
+    font-weight: bolder;
+}
+form{
+   border: 1px solid black;
+   padding: 0px;
+   margin: 0px;
+   font-size: 30px;
+   padding: 15px;
+   border-radius: 5px;
+   height: 460px;
+   width: 270px;
+   background-color: white;
+   
+}
+#submit{
+width: 100%;
+height: 30px;
+border-radius: 20px;
+background-image: linear-gradient(to bottom right, rgb(255, 58, 58), rgb(0, 47, 255));
+}
+#username{
+    font-size: 15px;
+    position: relative;
+    left: 25px;
+    top: 12px;
+    color: black;
+}
+
+
+#password{
+    font-size: 15px;
+    position: relative;
+    left: 25px;
+    top: 12px;
+    color: black;
+
+}
+
+#forgot{
+    display: flex;
+    font-size: 10px;
+    float: right;
+    
+}
+
+
+#usericon{
+    font-size: 15px;
+    color: darkgrey;
+}
+#lockicon{
+    font-size: 15px;
+    color: darkgrey;
+}
+
+#signup{
+    font-size: 10px;
+   text-align: center;
+   padding: 0;
+   margin:20px;
+}
+
+.loginOPTION{
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        position: relative;
+
+}
+
+#google{
+    border: 0px transparent;
+    margin: 5px;
+    font-size: 20px;
+
+
+}
+#facebook{
+    border: 0px transparent;
+    margin: 5px;
+    font-size: 20px;
+}
+#twitter{
+    border: 0px transparent;
+    margin: 5px;
+    font-size: 20px;
+
+
+}
+
+#last{
+    text-align: center;
+    font-size: 15px;
+    position: relative;
+    bottom: 0px;
+    color: darkgray;
+}
+
+#lastsign{
+    font-size: 15px;    
+    text-align: center;
+}
+#lastsignA{
+    text-decoration: none;
+    color: black;
+}
